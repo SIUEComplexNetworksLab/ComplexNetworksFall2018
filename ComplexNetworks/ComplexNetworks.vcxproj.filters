@@ -39,6 +39,9 @@
     <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\NBRbig.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\ComplexNetworks\ComplexNetworks\_bc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Clust.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\NBRbig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\utility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
