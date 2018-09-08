@@ -118,7 +118,7 @@ void runABC(int M, double closeness, string graph_file){
 	string runtime_file = "ABC_" + graph_file + "_" + to_string(M) + ".txt";
 	ofstream output;
 	output.open(runtime_file);
-	GraphOrig h(graph_file);
+	Graph h(graph_file);
 	auto start_time = std::chrono::steady_clock::now();
 	Immunization myImm(h, h.nodes.size() - 1, M, closeness);
 	//myImm.OutputReport("C:\\Users\\John\\Dropbox\\Clust2\\results\\Yoshida\\p2p-Gnutella31"+to_string(M[i])+".csv");

@@ -115,22 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\Dijkstra.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\NBRbig.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\Clust.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\GraphOrig.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\Immunization.cpp" />
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\NBR.cpp" />
     <ClCompile Include="..\..\ComplexNetworks\ComplexNetworks\_bc.cc" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\Dijkstra.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\NBRbig.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\Immunization.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\NBR.h" />
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\utility.h" />
     <ClInclude Include="Clust.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GraphOrig.h" />

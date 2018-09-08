@@ -6,12 +6,13 @@
 #include <cmath>
 #include <random>
 #include <fstream>
+#include "Graph.h"
 #include "GraphOrig.h"
 #include "Immunization.h"
 #include <algorithm> //added -DB
 //#include "Katz.h"
 //#include "betweennessCentrality.h"
-//#include "adaptive-betweenness-centrality.h"
+#include "adaptive-betweenness-centrality.h"
 #include "NBR.h"
 
 using namespace std;
@@ -61,6 +62,46 @@ Immunization::Immunization(const GraphOrig &g, int num_removed_ndes, int M, int 
 		else return;
 	}
 }
+
+Immunization::Immunization(const Graph &g, int num_removed_ndes, int M, double closeness)
+{
+	// Initialize everything
+	gr.nodes = g.nodes;
+	gr.original_mapping = g.original_mapping;
+	gr.orig_file = g.orig_file;
+	gr.weights = g.weights;
+
+	num_removed_nodes = num_removed_ndes;
+	int V = g.nodes.size();
+	vector<double> btwss;
+	vector<int> seeds;
+	vector<vector<int>> new_nodes = g.nodes;
+	// Use a method to get a list of nodes to be removed...
+	//vector<int> seeds = Katz::adaptiveKatz2(graph, num_removed_ndes, iterations, closeness);
+	//vector<int> seeds = betweennessCentrality::bcAdaptivek(graph, num_removed_ndes, 5); // the k is irrelevant - was used for adaptive k
+	adaptive_betweenness_centrality::adaptive_approximate_betweenness(new_nodes, M, V, seeds, btwss);
+	node_removal_order = seeds;
+	// make a removal list!
+	vector <bool> removed_set;
+	for (int i = 0; i < V; i++)
+	{
+		removed_set.push_back(false);
+	}
+	for (int i = 0; i < seeds.size(); i++)
+	{
+		removed_set[seeds[i]] = true;
+		// create a new graph
+		Graph h(gr, removed_set);
+		vector<int> cur_comps = h.connectedComponents();
+		if (cur_comps.size() > 0) {
+			comps.push_back(cur_comps.size());
+			int max = *max_element(cur_comps.begin(), cur_comps.end());
+			largest_component.push_back(max);
+		}
+		else return;
+	}
+}
+
 
 void Immunization::OutputReport(string filename)
 {

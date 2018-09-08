@@ -18,25 +18,7 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\Immunization.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\GraphOrig.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\NBR.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\Clust.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Graph.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\Dijkstra.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\NBRbig.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\ComplexNetworks\ComplexNetworks\_bc.cc">
@@ -51,21 +33,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="GraphOrig.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\Immunization.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\NBR.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\Dijkstra.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\NBRbig.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\utility.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
