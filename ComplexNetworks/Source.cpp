@@ -13,13 +13,14 @@
 #include <sstream>
 #include <chrono>
 #include <ctime>
+#include "Immunization.h"
 
 using namespace std;
 
 // functions to call for each case
 void runGSIZE(int numClusters, int numSamples, bool reassign, int samp_vertex, string graph_file);
 void runKADABRA(int numClusters, int numSamples, bool reassign, int samp_vertex, string graph_file);
-void runABC();
+void runABC(int M, int closeness, string graph_file);
 void runNET();
 
 
@@ -63,20 +64,22 @@ int main() {
 	//if statements for deciding which algorithm (ex. KADABRA # # #)
 	//case depends on first string in line after parsing
 	if (split_input.at(0) == "ABC") {
-	
+		//case ABC  (Adaptive-bewteenness-centrality)
+		runABC(stoi(split_input.at(1)), stod(split_input.at(2)), split_input.at(3));
 	}
 	else if (split_input.at(0) == "GSIZE") {
 		//  case GSIZE
 		//  Gsize have variables (numClusters, numSamples i.e. M, Reassign (1 or 0 for bool), samp_vertex, and filepath for graph)
 		runGSIZE(stoi(split_input.at(1)), stoi(split_input.at(2)), stoi(split_input.at(3)), stoi(split_input.at(4)), split_input.at(5));
-	
-
+		
 	}
 	else if (split_input.at(0) == "KADABRA") {
+		//case KADABRA
 	
 	}
 	else if (split_input.at(0) == "Networkit") {
-
+		//case Networkit
+	
 	}
 	else {
 		cout << "Algorithm name not recognized... Do something here" << endl;
@@ -84,13 +87,10 @@ int main() {
 	
 
 
-	//case GSIZE
+	
 
-	//case KADABRA
 
-	//case ABC  (Adaptive-bewteenness-centrality)
 
-	//case Networkit
 
 
 
@@ -116,12 +116,27 @@ void runGSIZE(int numClusters, int numSamples, bool reassign, int samp_vertex, s
 	output.close();
 }
 
-void runKADABRA(){
-
+void runKADABRA(int M, double closeness, string graph_file){
+	
 }
 
-void runABC(){
+void runABC(int M, double closeness, string graph_file){
+	string output_file = "ABC_" + graph_file + "_" + to_string(M) + ".csv";
+	string runtime_file = "ABC_" + graph_file + "_" + to_string(M) + ".txt";
+	ofstream output;
+	output.open(runtime_file);
+	GraphOrig h(graph_file);
+	auto start_time = std::chrono::steady_clock::now();
+	Immunization myImm(h, h.nodes.size() - 1, M, closeness);
+	//myImm.OutputReport("C:\\Users\\John\\Dropbox\\Clust2\\results\\Yoshida\\p2p-Gnutella31"+to_string(M[i])+".csv");
+	myImm.OutputReport(output_file); // output files for each Imm report
+	auto end_time = std::chrono::steady_clock::now();
+	unsigned long total_time = std::chrono::duration_cast<std::chrono::microseconds>(
+		end_time - start_time).count() / 1000; // add 3 zeros to get seconds we are getting thousandths of seconds with 1000
 
+	output << total_time << endl;
+	output << "milliseconds" << endl;
+	output.close();
 }
 
 void runNET() {
