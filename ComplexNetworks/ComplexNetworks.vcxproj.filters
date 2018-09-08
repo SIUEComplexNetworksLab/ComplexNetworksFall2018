@@ -33,6 +33,12 @@
     <ClCompile Include="Graph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\Dijkstra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\NBRbig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Clust.h">
@@ -48,6 +54,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\GSize\GSize\NBR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\Dijkstra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Desktop\Independent Study - Graph Theory Projects\AdaptiveBetwennessCentrality\AdaptiveBetwennessCentrality\NBRbig.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

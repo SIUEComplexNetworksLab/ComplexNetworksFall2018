@@ -20,7 +20,7 @@ using namespace std;
 // functions to call for each case
 void runGSIZE(int numClusters, int numSamples, bool reassign, int samp_vertex, string graph_file);
 void runKADABRA(int numClusters, int numSamples, bool reassign, int samp_vertex, string graph_file);
-void runABC(int M, int closeness, string graph_file);
+void runABC(int M, double closeness, string graph_file);
 void runNET();
 
 
@@ -84,13 +84,6 @@ int main() {
 	else {
 		cout << "Algorithm name not recognized... Do something here" << endl;
 	}
-	
-
-
-	
-
-
-
 
 
 
