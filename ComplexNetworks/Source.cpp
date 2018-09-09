@@ -44,48 +44,62 @@ int main() {
 	//get input from user (or script?) on which algorithm to run
 	string line;
 	cout << "Algorithms and Parameters:" << endl;
-	cout << "ABC numSamples closeness filepath" << endl;
-	cout << "GSIZE numClusters numSamples bool_Reassign(1 or 0) samp_vertex filepath" << endl;
-	cout << "KADABRA numClusters err bool_reassign filepath groups filepath" << endl;
-	cout << "Networkit -- adding later" << endl;
-	cout << "Enter an algorthim and parameters ..." << endl;
+	cout << "ABC      numSamples  closeness  filepath" << endl;
+	cout << "GSIZE    numClusters numSamples bool_Reassign(1 or 0) samp_vertex filepath" << endl;
+	cout << "KADABRA  numClusters err        bool_reassign         groups      filepath" << endl;
+	cout << "Networkit  -  -  adding later" << endl;
+	cout << "Enter 'Help' to see algorithms again." << endl;
+	cout << "Enter an algorthim and parameters, or exit ..." << endl;
 	getline(cin, line);
+	while (line != "exit") {
+		//parse input for paramaters
+		istringstream iss(line);
 
-	//parse input for paramaters
-	istringstream iss(line);
-	
-	vector<string> split_input;
-	do {
-		string sp;
-		iss >> sp;
-		split_input.push_back(sp);
-	} while (iss);
+		vector<string> split_input;
+		do {
+			string sp;
+			iss >> sp;
+			split_input.push_back(sp);
+		} while (iss);
 
-	//if statements for deciding which algorithm (ex. KADABRA # # #)
-	//case depends on first string in line after parsing
-	if (split_input.at(0) == "ABC") {
-		//case ABC  (Adaptive-bewteenness-centrality)
-		runABC(stoi(split_input.at(1)), stod(split_input.at(2)), split_input.at(3));
-	}
-	else if (split_input.at(0) == "GSIZE") {
-		//  case GSIZE
-		//  Gsize have variables (numClusters, numSamples i.e. M, Reassign (1 or 0 for bool), samp_vertex, and filepath for graph)
-		runGSIZE(stoi(split_input.at(1)), stoi(split_input.at(2)), stoi(split_input.at(3)), stoi(split_input.at(4)), split_input.at(5));
-		
-	}
-	else if (split_input.at(0) == "KADABRA") {
-		//case KADABRA
-	
-	}
-	else if (split_input.at(0) == "Networkit") {
-		//case Networkit
-	
-	}
-	else {
-		cout << "Algorithm name not recognized... Do something here" << endl;
-	}
+		//if statements for deciding which algorithm (ex. KADABRA # # #)
+		//case depends on first string in line after parsing
+		// should maybe add validation of input, but at this point accept everything and assume the user wants what they enter
+		if (split_input.at(0) == "ABC") {
+			//case ABC  (Adaptive-bewteenness-centrality)
+			// ABC Variables   M				Closeness				filepath
+			runABC(stoi(split_input.at(1)), stod(split_input.at(2)), split_input.at(3));
+		}
+		else if (split_input.at(0) == "GSIZE") {
+			//  case GSIZE
+			//  Gsize variables(numClusters,  numSamples i.e. M,       Reassign (1 or 0 for bool), samp_vertex,    and   filepath for graph)
+			runGSIZE(stoi(split_input.at(1)), stoi(split_input.at(2)), stoi(split_input.at(3)), stoi(split_input.at(4)), split_input.at(5));
 
-
+		}
+		else if (split_input.at(0) == "KADABRA") {
+			//case KADABRA
+			// KADABRA variables (numClusters,  err,				     Reassign (1 or 0 for bool), groups,     and      filepath for graph)
+			runKADABRA(stoi(split_input.at(1)), stoi(split_input.at(2)), stoi(split_input.at(3)), stoi(split_input.at(4)), split_input.at(5));
+		}
+		else if (split_input.at(0) == "Networkit") {
+			//case Networkit
+			runNET();
+		}
+		else if (split_input.at(0) == "Help" || split_input.at(0) == "help") {
+			cout << "Algorithms and Parameters:" << endl;
+			cout << "ABC      numSamples  closeness  filepath" << endl;
+			cout << "GSIZE    numClusters numSamples bool_Reassign(1 or 0) samp_vertex filepath" << endl;
+			cout << "KADABRA  numClusters err        bool_reassign         groups      filepath" << endl;
+			cout << "Networkit  -  -  adding later" << endl;
+		}
+		else {
+			cout << "Algorithm name not recognized... Do something here" << endl;
+		}
+		cout << split_input.at(0) << " algorithm complete. Check folder for output files." << endl;
+		cout << endl;
+		cout << "Enter the next algorithm and parameters, or exit.." << endl;
+		getline(cin, line);
+	}
 
 	return 0;
 }
@@ -109,8 +123,22 @@ void runGSIZE(int numClusters, int numSamples, bool reassign, int samp_vertex, s
 	output.close();
 }
 
-void runKADABRA(int M, double closeness, string graph_file){
-	
+void runKADABRA(int numClusters, int numSamples, bool reassign, int samp_vertex, string graph_file){
+	//output file
+	ofstream output;
+	output.open("KADARBRA_" + graph_file + "_" + to_string(numClusters) + ".txt");
+	GraphOrig h(graph_file);
+
+	auto start_time = std::chrono::steady_clock::now();
+	Clust clust1(h, numClusters, numSamples, reassign, samp_vertex);
+	clust1.GetPartition();
+	clust1.SaveINTPartition("KADABRA_" + graph_file + "_" + to_string(numSamples) + "_INT.cluster");
+	auto end_time = std::chrono::steady_clock::now();
+	unsigned long total_time = std::chrono::duration_cast<std::chrono::microseconds>(
+		end_time - start_time).count() / 1000; // add 3 zeros to get seconds we are getting thousandths of seconds with 1000
+	output << total_time << endl;
+	output << "milliseconds" << endl;
+	output.close();
 }
 
 void runABC(int M, double closeness, string graph_file){
@@ -121,7 +149,7 @@ void runABC(int M, double closeness, string graph_file){
 	Graph h(graph_file);
 	auto start_time = std::chrono::steady_clock::now();
 	Immunization myImm(h, h.nodes.size() - 1, M, closeness);
-	//myImm.OutputReport("C:\\Users\\John\\Dropbox\\Clust2\\results\\Yoshida\\p2p-Gnutella31"+to_string(M[i])+".csv");
+
 	myImm.OutputReport(output_file); // output files for each Imm report
 	auto end_time = std::chrono::steady_clock::now();
 	unsigned long total_time = std::chrono::duration_cast<std::chrono::microseconds>(

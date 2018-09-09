@@ -4,8 +4,13 @@ c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(
           [
               _Rep=__int64
           ]
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(123): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(128): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned long', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(124): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(137): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(142): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned long', possible loss of data
           with
           [
               _Rep=__int64
