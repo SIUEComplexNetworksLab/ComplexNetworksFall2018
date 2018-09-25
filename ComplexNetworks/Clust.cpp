@@ -30,6 +30,20 @@ Clust::Clust(GraphOrig &h, int numClusters, int myM, bool myReassign, int samp_v
 	vector<vector<int>> int_clusters;
 	vector<vector<int>> ten_clusters;
 }
+// used for networkit -DB
+Clust::Clust(GraphOrig &h, int numClusters, int myM, bool myReassign)
+{
+	graph = h;
+	num_clusters = numClusters;
+	M = myM;
+	reassign = myReassign;
+	metadata_vat = "";
+	metadata_int = "";
+	metadata_ten = "";
+	vector<vector<int>> vat_clusters;
+	vector<vector<int>> int_clusters;
+	vector<vector<int>> ten_clusters;
+}
 
 void Clust::GetPartition()
 {

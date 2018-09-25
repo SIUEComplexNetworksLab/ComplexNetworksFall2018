@@ -21,7 +21,7 @@ using namespace std;
 void runGSIZE(int numClusters, int numSamples, bool reassign, int samp_vertex, string graph_file);
 void runKADABRA(int numClusters, int numSamples, bool reassign, int samp_vertex, string graph_file);
 void runABC(int M, double closeness, string graph_file);
-void runNET();
+void runNET(int numClusters, int numSamples, string graph_file);
 
 
 int main(int argc, char*argv[]) {
@@ -29,21 +29,21 @@ int main(int argc, char*argv[]) {
 	{
 		
 		if ((string)argv[i] == "ABC") {
-			cout << "running " << argv[i] << " " << argv[i+1] << " " << argv[i+2] << " on file " << argv[i+3] <<  endl;
+			cout << "\nrunning " << argv[i] << " " << argv[i+1] << " " << argv[i+2] << " on file " << argv[i+3] <<  endl;
 			//case ABC  (Adaptive-bewteenness-centrality)
 			// ABC Variables   M				Closeness				filepath
 			runABC(stoi(argv[i + 1]), stod(argv[i + 2]), argv[i + 3]);
 			i = i + 3;
 		}
 		else if ((string)argv[i] == "GSIZE") {
-			cout << "running " << argv[i] << " " << argv[i + 1] << " " << argv[i + 2] << " " << argv[i + 3] << " " << argv[i + 4] << " on file " << argv[i + 5] << endl;
+			cout << "\nrunning " << argv[i] << " " << argv[i + 1] << " " << argv[i + 2] << " " << argv[i + 3] << " " << argv[i + 4] << " on file " << argv[i + 5] << endl;
 			//  case GSIZE
 			//  Gsize variables(numClusters,  numSamples i.e. M,       Reassign (1 or 0 for bool), samp_vertex,    and   filepath for graph)
 			runGSIZE(stoi(argv[i+1]), stoi(argv[i+2]), stoi(argv[i+3]), stoi(argv[i+4]), argv[i+5]);
 			i = i + 5;
 		}
 		else if ((string)argv[i] == "KADABRA") {
-			cout << "running " << argv[i] << " " << argv[i + 1] << " " << argv[i + 2] << " " << argv[i + 3] << " " << argv[i + 4] << " on file " << argv[i + 5] << endl;
+			cout << "\nrunning " << argv[i] << " " << argv[i + 1] << " " << argv[i + 2] << " " << argv[i + 3] << " " << argv[i + 4] << " on file " << argv[i + 5] << endl;
 			//case KADABRA
 			// KADABRA variables (numClusters,  err,				     Reassign (1 or 0 for bool), groups,     and      filepath for graph)
 			runKADABRA(stoi(argv[i + 1]), stoi(argv[i + 2]), stoi(argv[i + 3]), stoi(argv[i + 4]), argv[i + 5]);
@@ -51,10 +51,12 @@ int main(int argc, char*argv[]) {
 		}
 		else if ((string)argv[i] == "Networkit") {
 			//case Networkit
-			runNET();
+			cout << "\nrunning " << argv[i] << " " << argv[i + 1] << " " << argv[i + 2] << " on file " << argv[i + 3] << endl;
+			runNET(stoi(argv[i + 1]), stoi(argv[i + 2]), argv[i + 3]);
+			i = i + 3;
 		}
 		else {
-			cout << "Algorithm name not recognized at argv " << i << endl;
+			cout << '\n' << argv[i]  << " not recognized or out of order" << endl;
 			return 0;
 		}
 	}
@@ -193,6 +195,20 @@ void runABC(int M, double closeness, string graph_file){
 	output.close();
 }
 
-void runNET() {
-
+void runNET(int numClusters, int numSamples, string graph_file) {
+	//output file
+	ofstream output;
+	output.open("Networkit_" + graph_file + "_" + to_string(numClusters) + ".txt");
+	GraphOrig h(graph_file);
+	bool reassign = true;
+	auto start_time = std::chrono::steady_clock::now();
+	Clust clust1(h, numClusters, numSamples, reassign);
+	clust1.GetPartition();
+	clust1.SaveINTPartition("Networkit_" + graph_file + "_" + to_string(numSamples) + "_INT.cluster");
+	auto end_time = std::chrono::steady_clock::now();
+	unsigned long total_time = std::chrono::duration_cast<std::chrono::microseconds>(
+		end_time - start_time).count() / 1000; // add 3 zeros to get seconds we are getting thousandths of seconds with 1000
+	output << total_time << endl;
+	output << "milliseconds" << endl;
+	output.close();
 }

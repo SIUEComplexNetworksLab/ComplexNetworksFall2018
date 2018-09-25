@@ -17,6 +17,7 @@ class Clust
 		vector<vector<int>> ten_clusters;
 
 		Clust(GraphOrig &h, int numClusters, int M, bool reassign, int samp_vertex);
+		Clust(GraphOrig &h, int numClusters, int myM, bool reassign);
 		void GetPartition();
 		vector<bool> create_exclusion_list(int cluster_number, vector<vector<int> > clusters);
 		void SaveVATPartition(string filename);
