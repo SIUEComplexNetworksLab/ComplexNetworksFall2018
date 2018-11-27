@@ -1,5 +1,5 @@
 #pragma once
-#include "GraphOrig.h"
+#include "graph/GraphOrig.h"
 
 class Clust 
 {
@@ -18,7 +18,7 @@ class Clust
 
 		Clust(GraphOrig &h, int numClusters, int M, bool reassign, int samp_vertex);
 		Clust(GraphOrig &h, int numClusters, int myM, bool reassign);
-		void GetPartition();
+		void GetPartition(string alg); // added string to keep track of which alg we are running and what alg to run on the graph -DB
 		vector<bool> create_exclusion_list(int cluster_number, vector<vector<int> > clusters);
 		void SaveVATPartition(string filename);
 		void SaveINTPartition(string filename);

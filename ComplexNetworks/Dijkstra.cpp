@@ -16,7 +16,7 @@
 #include <stack>
 #include <time.h>  
 #include "IndexedItem.h"
-#include "Graph.h"
+#include "Graph2.h"
 #include "MinHeapDijkstra.h"
 #include <climits>  // added for INT_MAX value	 -DB
 
@@ -37,7 +37,7 @@ struct IndexedItem
 	}
 };
 */
-	Dijkstra::Dijkstra(Graph &g, int v) {
+	Dijkstra::Dijkstra(Graph2 &g, int v) {
 
 		int numNodes = g.nodes.size();
 		//shortestPathLength = new double[numNodes];

@@ -10,10 +10,11 @@
 #include<sstream>
 #include <algorithm> // added for sort  -DB
 #include "limits.h" // added for INT_MAX -DB
-#include "GraphOrig.h"
+#include "graph/GraphOrig.h"
 //#include "adaptive-betweenness-centrality.h"
 #include "Clust.h"
 #include "NBR.h"
+#include <algorithm>
 using namespace std;
 
 Clust::Clust(GraphOrig &h, int numClusters, int myM, bool myReassign, int samp_vertex)
@@ -45,7 +46,7 @@ Clust::Clust(GraphOrig &h, int numClusters, int myM, bool myReassign)
 	vector<vector<int>> ten_clusters;
 }
 
-void Clust::GetPartition()
+void Clust::GetPartition(string alg)
 {
 	//ofstream results; results.open("C:\\Users\\John\\Dropbox\\Clust2\\big\\GPU3\\running.txt");
 	//get the actual partition (if graph not necessarily connected)
@@ -78,7 +79,7 @@ void Clust::GetPartition()
 		vector<bool> exclude = create_exclusion_list(i, vat_clusters);
 		//create a new graph from this cluster
 		GraphOrig my_graph(graph, exclude);
-		NBR myNBR(my_graph, M, samp);
+		NBR myNBR(my_graph, M, samp, alg);
 		//cout << "Pushing back the vats." << endl;
 		vatMap.push_back(myNBR);
 		intMap.push_back(myNBR);
@@ -458,7 +459,7 @@ void Clust::GetPartition()
 				vector<bool> exclude = create_exclusion_list(i, orig_maps_main);
 				//create a new graph from this cluster
 				GraphOrig my_graph(graph, exclude);
-				NBR myNBR(my_graph, M, samp);
+				NBR myNBR(my_graph, M, samp, alg);
 				intMap_addition.push_back(myNBR);
 			}
 

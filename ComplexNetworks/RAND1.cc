@@ -8,7 +8,7 @@
 #include "bc.h"
 #include "utility.h"
 #include <ctime>
-#include "GraphOrig.h"
+#include "graph/GraphOrig.h"
 #include <chrono>
 #include "Clust.h"
 #include "Immunization.h"

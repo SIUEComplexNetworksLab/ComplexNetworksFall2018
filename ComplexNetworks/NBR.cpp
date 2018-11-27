@@ -8,10 +8,13 @@
 #include <fstream>
 #include <unordered_map>
 #include <unordered_set>
-#include "GraphOrig.h"
+#include "graph/GraphOrig.h"
 //#include "adaptive-betweenness-centrality.h"
 #include "NBR.h"
 #include "bc.h"
+#include <string> //-DB
+#include "Immunization.h"
+#include "limits.h"
 //#include "kernels.cuh"
 //#include<boost/container/flat_set.hpp>
 //using boost::unordered_set;
@@ -22,7 +25,7 @@ NBR::NBR()
 {
 
 }
-NBR::NBR(const GraphOrig &g, int M,int samp)
+NBR::NBR(const GraphOrig &g, int M,int samp, string alg)
 {
 
 	grph.nodes = g.nodes;
@@ -40,13 +43,27 @@ NBR::NBR(const GraphOrig &g, int M,int samp)
 	// sometimes a single node cluster gets in there...so if it does don't bother with the abc
 	if (g.nodes.size() > 2)
 	{
+		
 		//adaptive_approximate_betweenness(new_nodes, g.nodes.size()*7, myK, seeds, btwss);// g.nodes.size() was M
 		//adjust_betweenness(seeds);
 		//adaptive_approximate_coverage(new_nodes, g.nodes.size()*2, myK, seeds, btwss);// g.nodes.size() was M
 		//get_influence(myK, seeds, btwss);
 		//get_iterative_btwss(M, myK, seeds, btwss);
 		//seeds = get_gpu_bc_exact(g, 128, 20, op, source_vert);
-		seeds = get_bader_approx(g, myK, M, samp);
+		if (alg == "Networkit") { // added to get the right algorithms for each call -DB
+			Immunization myImm = Immunization();
+			seeds = myImm.get_bc_approx(g, myK, (double)M / 10.0, .1); // can reduce .1 to speed it up
+			cout << "MyK: " << myK << endl; 
+		}
+		else if (alg == "GSIZE") {
+			seeds = get_bader_approx(g, myK, M, samp);
+		}
+		else if (alg == "KADABRA") {
+			Immunization myImm = Immunization();
+			seeds = myImm.get_bc_approx(g, myK, 1, .1, (double)M / 1000.0);
+		}
+
+
 		cout << "Returned from abc";
 		grph = g;
 		node_removal_order = seeds;

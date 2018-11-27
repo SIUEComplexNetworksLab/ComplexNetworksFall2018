@@ -18,10 +18,10 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Graph.cpp">
+    <ClCompile Include="..\..\ComplexNetworks\ComplexNetworks\_bc.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\ComplexNetworks\ComplexNetworks\_bc.cc">
+    <ClCompile Include="Graph2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,10 +29,7 @@
     <ClInclude Include="Clust.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Graph.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GraphOrig.h">
+    <ClInclude Include="Graph2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

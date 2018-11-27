@@ -116,13 +116,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\ComplexNetworks\ComplexNetworks\_bc.cc" />
-    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Graph2.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Clust.h" />
-    <ClInclude Include="Graph.h" />
-    <ClInclude Include="GraphOrig.h" />
+    <ClInclude Include="Graph2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

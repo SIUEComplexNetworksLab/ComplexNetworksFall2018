@@ -15,7 +15,7 @@
 #include <random>
 #include <stack>
 #include <time.h>  
-#include "Graph.h"
+#include "Graph2.h"
 #include "MinHeapDijkstra.h"
 using namespace std;
 
@@ -41,7 +41,7 @@ public:
 	stack<int> S;
 	vector<double> shortestPathLength;
 
-	Dijkstra(Graph &g, int v);
+	Dijkstra(Graph2 &g, int v);
 
 
 };

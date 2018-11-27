@@ -8,7 +8,7 @@
 #include "ApproxBetweenness.h"
 #include "../auxiliary/Random.h"
 #include "../distance/Diameter.h"
-#include "Sampling.h"
+#include "../graph/Sampling.h"
 #include "../distance/Dijkstra.h"
 #include "../distance/BFS.h"
 #include "../distance/SSSP.h"

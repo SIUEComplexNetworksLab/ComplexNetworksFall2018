@@ -6,8 +6,8 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-#include "Graph.h"
-#include "GraphOrig.h"
+#include "Graph2.h"
+#include "graph/GraphOrig.h"
 #include "Clust.h"
 #include <vector>
 #include <sstream>
@@ -148,7 +148,7 @@ void runGSIZE(int numClusters, int numSamples, bool reassign, int samp_vertex, s
 	
 	auto start_time = std::chrono::steady_clock::now();
 	Clust clust1(h, numClusters, numSamples, reassign, samp_vertex);
-	clust1.GetPartition();
+	clust1.GetPartition("GSIZE");
 	clust1.SaveINTPartition("GSIZE_" + graph_file + "_" + to_string(numSamples) + "_INT.cluster");
 	auto end_time = std::chrono::steady_clock::now();
 	unsigned long total_time = std::chrono::duration_cast<std::chrono::microseconds>(
@@ -166,7 +166,7 @@ void runKADABRA(int numClusters, int numSamples, bool reassign, int samp_vertex,
 
 	auto start_time = std::chrono::steady_clock::now();
 	Clust clust1(h, numClusters, numSamples, reassign, samp_vertex);
-	clust1.GetPartition();
+	clust1.GetPartition("KADABRA");
 	clust1.SaveINTPartition("KADABRA_" + graph_file + "_" + to_string(numSamples) + "_INT.cluster");
 	auto end_time = std::chrono::steady_clock::now();
 	unsigned long total_time = std::chrono::duration_cast<std::chrono::microseconds>(
@@ -181,7 +181,7 @@ void runABC(int M, double closeness, string graph_file){
 	string runtime_file = "ABC_" + graph_file + "_" + to_string(M) + ".txt";
 	ofstream output;
 	output.open(runtime_file);
-	Graph h(graph_file);
+	Graph2 h(graph_file);
 	auto start_time = std::chrono::steady_clock::now();
 	Immunization myImm(h, h.nodes.size() - 1, M, closeness);
 
@@ -203,7 +203,7 @@ void runNET(int numClusters, int numSamples, string graph_file) {
 	bool reassign = true;
 	auto start_time = std::chrono::steady_clock::now();
 	Clust clust1(h, numClusters, numSamples, reassign);
-	clust1.GetPartition();
+	clust1.GetPartition("Networkit");
 	clust1.SaveINTPartition("Networkit_" + graph_file + "_" + to_string(numSamples) + "_INT.cluster");
 	auto end_time = std::chrono::steady_clock::now();
 	unsigned long total_time = std::chrono::duration_cast<std::chrono::microseconds>(

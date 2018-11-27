@@ -10,7 +10,7 @@
 #include <random>
 #include <fstream>
 //#include "adaptive-betweenness-centrality.h"
-#include "GraphOrig.h"
+#include "graph/GraphOrig.h"
 
 using namespace std;
 
@@ -33,7 +33,7 @@ public:
 	vector<int> memoize;
 
 	NBR();
-	NBR(const GraphOrig &g, int M, int samp);
+	NBR(const GraphOrig &g, int M, int samp, string alg); // added string -DB
 	void calculate_measure(vector<int> &removal_order, int num_removed, double &thevat, double &theintegrity);
 	//static vector<vector<int>> find_components(const Graph &g);
 	void connectedComponents(const GraphOrig &g);
