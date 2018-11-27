@@ -49,7 +49,7 @@ public:
      * "linear scaling" estimator from Geisberger et al., "Better Approximation
      * of Betweenness Centrality", ALENEX'08.
      */
-    ApproxBetweennessRade(const Graph2& G, const double epsilon=0.01,
+    ApproxBetweennessRade(const Graph& G, const double epsilon=0.01,
             const double delta=0.1, const double sampleScheduleMultiplier=0.01,
             const bool useRefinedEstimator=false);
 

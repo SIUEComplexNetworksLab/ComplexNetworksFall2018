@@ -1,50 +1,1305 @@
-﻿  Graph2.cpp
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph2.cpp(36): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of _bc.cc will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\ComplexNetworks\ComplexNetworks\_bc.cc, _bc.cc.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of Dijkstra.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Dijkstra.cpp, distance\Dijkstra.cpp.
+  ApproxBetweennessRade.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\abra\approxbetweennessrade.cpp(108): warning C4244: '=': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\abra\approxbetweennessrade.cpp(238): warning C4244: '+=': conversion from '_Rep' to 'unsigned long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\abra\approxbetweennessrade.cpp(243): warning C4244: 'initializing': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\abra\approxbetweennessrade.cpp(243): warning C4244: 'initializing': conversion from 'NetworKit::count' to 'const double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\abra\approxbetweennessrade.cpp(331): warning C4244: '=': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\abra\approxbetweennessrade.cpp(338): warning C4244: '+=': conversion from '_Rep' to 'unsigned long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\abra\approxbetweennessrade.cpp(343): warning C4244: '=': conversion from '_Rep' to 'unsigned long', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  RadeAux.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\abra\radeaux.cpp(32): fatal error C1083: Cannot open include file: 'nlopt.hpp': No such file or directory
+  adaptive-betweenness-centrality.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(135): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(173): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(232): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(295): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(368): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(393): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(430): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(446): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(480): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph2.cpp(50): warning C4267: 'argument': conversion from 'size_t' to 'const _Ty', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(504): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(505): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\adaptive-betweenness-centrality.cpp(561): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  CSRMatrix.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\algebraic\csrmatrix.cpp(590): error C2039: 'iota': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\atomic(43): note: see declaration of 'std'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\algebraic\csrmatrix.cpp(590): error C3861: 'iota': identifier not found
+  DenseMatrix.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\algebraic\densematrix.cpp(81): error C2039: 'min': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\set(18): note: see declaration of 'std'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\algebraic\densematrix.cpp(81): error C3861: 'min': identifier not found
+  DynamicMatrix.cpp
+  Vector.cpp
+  Parallelism.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\auxiliary\parallelism.cpp(13): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\auxiliary\parallelism.cpp(23): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\auxiliary\parallelism.cpp(33): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\auxiliary\parallelism.cpp(41): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  PrioQueueForInts.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\auxiliary\prioqueueforints.cpp(15): warning C4244: 'initializing': conversion from 'Aux::index' to 'unsigned int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\auxiliary\prioqueueforints.cpp(41): warning C4244: '=': conversion from 'Aux::index' to 'unsigned int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\auxiliary\prioqueueforints.cpp(44): warning C4244: '=': conversion from 'Aux::index' to 'int', possible loss of data
+  Timer.cpp
+  Betweenness.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\betweenness.cpp(42): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\betweenness.cpp(43): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\betweenness.cpp(48): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\betweenness.cpp(90): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\betweenness.cpp(133): warning C4244: '=': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\betweenness.cpp(135): warning C4244: '=': conversion from 'NetworKit::count' to 'double', possible loss of data
+  Centrality.cpp
+  DynApproxBetweenness.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(42): warning C4244: 'initializing': conversion from '_Ty1' to 'NetworKit::edgeweight', possible loss of data
+          with
+          [
+              _Ty1=NetworKit::node
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(44): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(45): warning C4244: '=': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(46): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(54): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(65): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(70): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(100): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(101): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynapproxbetweenness.cpp(126): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  DynBetweenness.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(67): warning C4244: '=': conversion from '_Ty' to 'NetworKit::count', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(79): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(101): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(104): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(111): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(114): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(118): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(136): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(153): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(165): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(167): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(178): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(188): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(198): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(202): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(206): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(256): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(257): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(269): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(270): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(283): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(284): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(295): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\dynbetweenness.cpp(298): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  EigenvectorCentrality.cpp
+  LocalClusteringCoefficient.cpp
+  PermanenceCentrality.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\permanencecentrality.cpp(47): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\permanencecentrality.cpp(82): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\permanencecentrality.cpp(93): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\permanencecentrality.cpp(105): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Sfigality.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\sfigality.cpp(35): warning C4244: 'return': conversion from 'NetworKit::count' to 'double', possible loss of data
+  SpanningEdgeCentrality.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(217): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(230): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(242): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(32): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(51): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(73): warning C4244: 'initializing': conversion from 'double' to 'const NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(112): warning C4244: 'initializing': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(112): warning C4244: 'initializing': conversion from 'double' to 'const NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(154): warning C4244: 'initializing': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(154): warning C4244: 'initializing': conversion from 'double' to 'const NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\spanningedgecentrality.cpp(202): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  TopCloseness.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(36): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(37): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(41): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(56): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(61): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(155): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(193): warning C4244: '=': conversion from '_Ty' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=NetworKit::count
+          ]
+          and
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(197): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(201): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(214): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(240): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(257): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(332): warning C4244: 'initializing': conversion from '_Ty' to 'double', possible loss of data
+          with
+          [
+              _Ty=NetworKit::count
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(336): warning C4244: 'initializing': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(416): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(420): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(431): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(451): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(461): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(475): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(477): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(487): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(505): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(508): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(510): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(519): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(526): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(539): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(552): warning C4244: 'initializing': conversion from 'uint64_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\centrality\topcloseness.cpp(558): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Generating Code...
+  Compiling...
+  MaxClique.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.cpp(25): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.cpp(48): warning C4996: 'NetworKit::MaxClique::G': Use MaximalCliques instead.
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.h(27): note: see declaration of 'NetworKit::MaxClique::G'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.cpp(70): warning C4996: 'NetworKit::MaxClique::G': Use MaximalCliques instead.
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.h(27): note: see declaration of 'NetworKit::MaxClique::G'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.cpp(72): warning C4996: 'NetworKit::MaxClique::G': Use MaximalCliques instead.
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.h(27): note: see declaration of 'NetworKit::MaxClique::G'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.cpp(74): warning C4996: 'NetworKit::MaxClique::G': Use MaximalCliques instead.
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.h(27): note: see declaration of 'NetworKit::MaxClique::G'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.cpp(84): warning C4996: 'NetworKit::MaxClique::clique': Use MaximalCliques instead.
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clique\maxclique.cpp(18): note: see declaration of 'NetworKit::MaxClique::clique'
+  MaximalCliques.cpp
+  Clust.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(79): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(330): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(342): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(410): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(459): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(484): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(531): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph2.cpp(71): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph2.cpp(87): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph2.cpp(186): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph2.cpp(247): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph2.cpp(304): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph2.cpp(309): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-  Source.cpp
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(155): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned long', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(558): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\clust.cpp(1149): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ClusteringProjector.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\clusteringprojector.cpp(88): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\clusteringprojector.cpp(89): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  GraphCoarsening.cpp
+  MatchingCoarsening.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\matchingcoarsening.cpp(27): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  ParallelPartitionCoarsening.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(38): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(78): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(82): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(90): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(91): error C2039: 'accumulate': is not a member of 'std'
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\graph.h(63): note: see declaration of 'std'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(91): error C3861: 'accumulate': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(99): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(108): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\coarsening\parallelpartitioncoarsening.cpp(130): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  AdjustedRandMeasure.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\adjustedrandmeasure.cpp(49): warning C4244: 'initializing': conversion from 'NetworKit::count' to 'double', possible loss of data
+  ClusteringGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\clusteringgenerator.cpp(40): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  CommunityDetectionAlgorithm.cpp
+  Coverage.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\coverage.cpp(20): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\coverage.cpp(40): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\coverage.cpp(53): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\coverage.cpp(57): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  CoverHubDominance.cpp
+  CutClustering.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\cutclustering.cpp(201): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\cutclustering.cpp(217): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  DissimilarityMeasure.cpp
+  DynamicNMIDistance.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(29): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(32): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(38): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(39): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(55): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(56): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(85): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(89): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(158): warning C4244: 'argument': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(164): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(175): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(179): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(197): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\dynamicnmidistance.cpp(201): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  EdgeCut.cpp
+  GraphClusteringTools.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\graphclusteringtools.cpp(24): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\graphclusteringtools.cpp(29): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\graphclusteringtools.cpp(33): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\graphclusteringtools.cpp(38): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\graphclusteringtools.cpp(54): warning C4244: '+=': conversion from 'NetworKit::edgeweight' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\graphclusteringtools.cpp(74): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  GraphStructuralRandMeasure.cpp
+  LocalPartitionEvaluation.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\localpartitionevaluation.cpp(9): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  LPDegreeOrdered.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\lpdegreeordered.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\lpdegreeordered.cpp(21): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\lpdegreeordered.cpp(81): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Generating Code...
+  Compiling...
+  Modularity.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\modularity.cpp(41): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\modularity.cpp(45): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\modularity.cpp(72): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\modularity.cpp(81): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  NMIDistance.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(23): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(24): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(40): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(41): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(56): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(71): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(89): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(90): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(94): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\nmidistance.cpp(112): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  NodeStructuralRandMeasure.cpp
+  ParallelAgglomerativeClusterer.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\parallelagglomerativeclusterer.cpp(40): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\parallelagglomerativeclusterer.cpp(68): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  PartitionFragmentation.cpp
+  PLM.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plm.cpp(31): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plm.cpp(45): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plm.cpp(223): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plm.cpp(229): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plm.cpp(233): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plm.cpp(246): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plm.cpp(272): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plm.cpp(276): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  PLP.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plp.cpp(72): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\plp.cpp(113): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  QualityMeasure.cpp
+  SampledGraphStructuralRandMeasure.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\sampledgraphstructuralrandmeasure.cpp(47): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  SampledNodeStructuralRandMeasure.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\samplednodestructuralrandmeasure.cpp(45): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  StablePartitionNodes.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\stablepartitionnodes.cpp(26): warning C4244: '+=': conversion from 'NetworKit::edgeweight' to 'unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\community\stablepartitionnodes.cpp(30): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  ConnectedComponents.cpp
+  ParallelConnectedComponents.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\parallelconnectedcomponents.cpp(28): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\parallelconnectedcomponents.cpp(38): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\parallelconnectedcomponents.cpp(44): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\parallelconnectedcomponents.cpp(103): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\parallelconnectedcomponents.cpp(113): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\parallelconnectedcomponents.cpp(116): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  StronglyConnectedComponents.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(105): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(113): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(116): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(122): warning C4244: '=': conversion from 'NetworKit::count' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(123): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(126): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(133): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(139): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(155): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\components\stronglyconnectedcomponents.cpp(158): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Assortativity.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\correlation\assortativity.cpp(57): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\correlation\assortativity.cpp(58): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\correlation\assortativity.cpp(59): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Dijkstra.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\dijkstra.cpp(42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\dijkstra.cpp(79): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  AlgebraicDistance.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\algebraicdistance.cpp(105): warning C4305: 'argument': truncation from 'const NetworKit::index' to 'const _Ty'
           with
           [
-              _Rep=__int64
+              _Ty=double
           ]
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(173): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned long', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\algebraicdistance.cpp(114): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  APSP.cpp
+  CommuteTimeDistance.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(217): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(230): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(242): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(31): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(53): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(80): warning C4244: '=': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(124): warning C4244: '=': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(130): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(148): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(150): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(214): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\commutetimedistance.cpp(215): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Diameter.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(35): warning C4244: '=': conversion from 'NetworKit::edgeweight' to 'unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(39): warning C4244: '=': conversion from 'NetworKit::edgeweight' to 'unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(41): warning C4244: '=': conversion from 'NetworKit::edgeweight' to 'unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(261): warning C4244: 'initializing': conversion from 'NetworKit::count' to 'NetworKit::edgeweight', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(317): warning C4244: 'return': conversion from 'NetworKit::count' to 'NetworKit::edgeweight', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(303): warning C4244: '=': conversion from '_Ty' to '_Ty1', possible loss of data
           with
           [
-              _Rep=__int64
+              _Ty=NetworKit::edgeweight
           ]
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(186): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(191): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned long', possible loss of data
-          with
+          and
           [
-              _Rep=__int64
+              _Ty1=NetworKit::node
           ]
-c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\source.cpp(210): warning C4244: 'initializing': conversion from '_Rep' to 'unsigned long', possible loss of data
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(37): note: see reference to function template instantiation 'std::pair<NetworKit::node,NetworKit::node> &std::pair<NetworKit::node,NetworKit::node>::operator =<NetworKit::edgeweight,NetworKit::edgeweight,0>(std::pair<NetworKit::edgeweight,NetworKit::edgeweight> &&) noexcept' being compiled
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(37): note: see reference to function template instantiation 'std::pair<NetworKit::node,NetworKit::node> &std::pair<NetworKit::node,NetworKit::node>::operator =<NetworKit::edgeweight,NetworKit::edgeweight,0>(std::pair<NetworKit::edgeweight,NetworKit::edgeweight> &&) noexcept' being compiled
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(304): warning C4244: '=': conversion from '_Ty' to '_Ty2', possible loss of data
           with
           [
-              _Rep=__int64
+              _Ty=NetworKit::edgeweight
+          ]
+          and
+          [
+              _Ty2=NetworKit::node
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(172): warning C4244: 'initializing': conversion from 'NetworKit::count' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=NetworKit::edgeweight
+          ]
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(228): note: see reference to function template instantiation 'std::pair<NetworKit::edgeweight,NetworKit::edgeweight>::pair<NetworKit::count&,NetworKit::count&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=NetworKit::count &,
+              _Other2=NetworKit::count &
+          ]
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\diameter.cpp(228): note: see reference to function template instantiation 'std::pair<NetworKit::edgeweight,NetworKit::edgeweight>::pair<NetworKit::count&,NetworKit::count&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=NetworKit::count &,
+              _Other2=NetworKit::count &
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(173): warning C4244: 'initializing': conversion from 'NetworKit::count' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=NetworKit::edgeweight
           ]
   Generating Code...
-Graph2.obj : error LNK2019: unresolved external symbol "void __cdecl adaptive_betweenness_centrality::load_graph_from_Graph(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::vector<class std::vector<int,class std::allocator<int> >,class std::allocator<class std::vector<int,class std::allocator<int> > > > &)" (?load_graph_from_Graph@adaptive_betweenness_centrality@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@3@@Z) referenced in function "public: __cdecl Graph2::Graph2(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0Graph2@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Graph2.obj : error LNK2019: unresolved external symbol "public: __cdecl Dijkstra::Dijkstra(class Graph2 &,int)" (??0Dijkstra@@QEAA@AEAVGraph2@@H@Z) referenced in function "public: double __cdecl Graph2::getDiameter(void)" (?getDiameter@Graph2@@QEAANXZ)
-Source.obj : error LNK2019: unresolved external symbol "public: __cdecl GraphOrig::GraphOrig(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (??0GraphOrig@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "void __cdecl runGSIZE(int,int,bool,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?runGSIZE@@YAXHH_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Source.obj : error LNK2019: unresolved external symbol "public: __cdecl Clust::Clust(class GraphOrig &,int,int,bool,int)" (??0Clust@@QEAA@AEAVGraphOrig@@HH_NH@Z) referenced in function "void __cdecl runGSIZE(int,int,bool,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?runGSIZE@@YAXHH_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Source.obj : error LNK2019: unresolved external symbol "public: __cdecl Clust::Clust(class GraphOrig &,int,int,bool)" (??0Clust@@QEAA@AEAVGraphOrig@@HH_N@Z) referenced in function "void __cdecl runNET(int,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?runNET@@YAXHHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Source.obj : error LNK2019: unresolved external symbol "public: void __cdecl Clust::GetPartition(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?GetPartition@Clust@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "void __cdecl runGSIZE(int,int,bool,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?runGSIZE@@YAXHH_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Source.obj : error LNK2019: unresolved external symbol "public: void __cdecl Clust::SaveINTPartition(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?SaveINTPartition@Clust@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "void __cdecl runGSIZE(int,int,bool,int,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?runGSIZE@@YAXHH_NHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Source.obj : error LNK2019: unresolved external symbol "public: __cdecl Immunization::Immunization(class Graph2 const &,int,int,double)" (??0Immunization@@QEAA@AEBVGraph2@@HHN@Z) referenced in function "void __cdecl runABC(int,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?runABC@@YAXHNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-Source.obj : error LNK2019: unresolved external symbol "public: void __cdecl Immunization::OutputReport(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?OutputReport@Immunization@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function "void __cdecl runABC(int,double,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?runABC@@YAXHNV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
-C:\Users\GLaDOS\Source\Repos\ComplexNetworksFall2018\x64\Debug\ComplexNetworks.exe : fatal error LNK1120: 9 unresolved externals
+  Compiling...
+  DynAPSP.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynapsp.cpp(67): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynapsp.cpp(85): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynapsp.cpp(91): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynapsp.cpp(95): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynapsp.cpp(99): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  DynBFS.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynbfs.cpp(30): warning C4244: '=': conversion from '_Ty' to 'NetworKit::count', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynbfs.cpp(50): warning C4244: 'argument': conversion from '_Ty' to 'const unsigned __int64', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynbfs.cpp(52): warning C4244: 'argument': conversion from '_Ty' to 'const unsigned __int64', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynbfs.cpp(60): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynbfs.cpp(64): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\dynbfs.cpp(71): warning C4244: '=': conversion from 'NetworKit::count' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  DynDijkstra.cpp
+  GraphDistance.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\graphdistance.cpp(16): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\graphdistance.cpp(22): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\graphdistance.cpp(25): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  HopPlotApproximation.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\hopplotapproximation.cpp(62): warning C4244: '=': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\hopplotapproximation.cpp(72): warning C4244: '=': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\hopplotapproximation.cpp(107): warning C4244: '=': conversion from 'NetworKit::count' to 'double', possible loss of data
+  JaccardDistance.cpp
+  NeighborhoodFunctionApproximation.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(52): warning C4244: 'initializing': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(64): error C2065: 'ssize_t': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(64): error C2146: syntax error: missing ';' before identifier 't'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(64): error C2143: syntax error: missing ';' before '='
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(64): error C2143: syntax error: missing ')' before '='
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(64): error C2059: syntax error: '='
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(64): error C2065: 't': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(64): error C2059: syntax error: ')'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(65): error C2065: 't': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(65): error C2059: syntax error: ';'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(67): error C2065: 'i': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(67): error C2065: 'tmp': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(74): error C2059: syntax error: 'while'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(74): error C2143: syntax error: missing ';' before '{'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(74): error C2447: '{': missing function header (old-style formal list?)
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(131): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(134): error C2923: 'std::vector': 'std::count' is not a valid template type argument for parameter '_Ty'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xutility(3574): note: see declaration of 'std::count'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(134): error C2903: 'allocator': symbol is neither a class template nor a function template
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(134): error C3203: 'allocator': unspecialized class template can't be used as a template argument for template parameter '_Alloc', expected a real type
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(134): error C2653: 'NeighborhoodFunctionApproximation': is not a class or namespace name
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(134): error C2270: 'getNeighborhoodFunction': modifiers not allowed on nonmember functions
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(134): error C2079: 'getNeighborhoodFunction' uses undefined class 'std::vector'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(135): error C2065: 'hasRun': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(138): error C2065: 'result': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(142): error C2059: syntax error: '}'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionapproximation.cpp(142): error C2143: syntax error: missing ';' before '}'
+  NeighborhoodFunctionHeuristic.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\distance\neighborhoodfunctionheuristic.cpp(89): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=NetworKit::count
+          ]
+  DGSStreamParser.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\dynamics\dgsstreamparser.cpp(32): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\dynamics\dgsstreamparser.cpp(38): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\dynamics\dgsstreamparser.cpp(120): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\dynamics\dgsstreamparser.cpp(179): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\dynamics\dgsstreamparser.cpp(182): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  DGSWriter.cpp
+  GraphUpdater.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\dynamics\graphupdater.cpp(18): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  ChibaNishizekiQuadrangleEdgeScore.cpp
+  ChibaNishizekiTriangleEdgeScore.cpp
+  EdgeScore.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\edgescores\edgescore.cpp(15): error C3861: '__PRETTY_FUNCTION__': identifier not found
+  EdgeScoreAsWeight.cpp
+  GeometricMeanScore.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\edgescores\geometricmeanscore.cpp(36): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  PrefixJaccardScore.cpp
+  TriangleEdgeScore.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\edgescores\triangleedgescore.cpp(50): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\edgescores\triangleedgescore.cpp(106): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  EdmondsKarp.cpp
+  BarabasiAlbertGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\barabasialbertgenerator.cpp(31): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Generating Code...
+  Compiling...
+  ChungLuGenerator.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\numeric(26): warning C4244: '=': conversion from 'unsigned __int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\numeric(36): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>,
+              _Fn=std::plus<void>
+          ]
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\chunglugenerator.cpp(19): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned __int64>>>,int>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>
+          ]
+  DynamicDGSParser.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicdgsparser.cpp(25): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicdgsparser.cpp(33): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicdgsparser.cpp(35): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicdgsparser.cpp(175): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicdgsparser.cpp(176): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicdgsparser.cpp(177): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicdgsparser.cpp(178): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicdgsparser.cpp(201): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  DynamicDorogovtsevMendesGenerator.cpp
+  DynamicForestFireGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicforestfiregenerator.cpp(91): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamicforestfiregenerator.cpp(95): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  DynamicGraphGenerator.cpp
+  DynamicHyperbolicGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(129): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(133): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(140): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(141): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(148): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(172): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(174): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(179): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(180): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(183): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(193): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(195): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(415): error C3861: 'M_PI': identifier not found
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(795): note: see reference to class template instantiation 'NetworKit::QuadNode<T,poincare>' being compiled
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(416): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(532): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(563): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(573): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(576): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(583): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(593): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(614): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(620): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(627): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(634): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(645): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(657): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(660): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(39): error C3861: 'M_PI': identifier not found
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(230): note: see reference to class template instantiation 'NetworKit::Quadtree<T,poincare>' being compiled
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(49): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(117): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(137): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(140): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(141): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(147): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(159): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(165): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(70): warning C4244: '=': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(131): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(131): error C2440: 'return': cannot convert from 'std::tuple<int>' to 'std::tuple<double,double>'
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(131): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(159): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(162): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(172): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(175): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(175): error C2672: 'std::upper_bound': no matching overloaded function found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(175): error C2780: '_FwdIt std::upper_bound(_FwdIt,_FwdIt,const _Ty &)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(3233): note: see declaration of 'std::upper_bound'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(175): error C2780: '_FwdIt std::upper_bound(_FwdIt,_FwdIt,const _Ty &,_Pr)': expects 4 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(3205): note: see declaration of 'std::upper_bound'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(182): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(182): error C2661: 'fmod': no overloaded function takes 1 arguments
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(191): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(193): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(193): error C2672: 'std::upper_bound': no matching overloaded function found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(193): error C2780: '_FwdIt std::upper_bound(_FwdIt,_FwdIt,const _Ty &)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(3233): note: see declaration of 'std::upper_bound'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(193): error C2780: '_FwdIt std::upper_bound(_FwdIt,_FwdIt,const _Ty &,_Pr)': expects 4 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(3205): note: see declaration of 'std::upper_bound'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(25): warning C4244: 'argument': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(66): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(84): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(89): warning C4244: 'argument': conversion from 'NetworKit::count' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(90): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(109): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(113): warning C4244: 'initializing': conversion from '_Ty' to 'double', possible loss of data
+          with
+          [
+              _Ty=NetworKit::count
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(114): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(115): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(115): warning C4244: 'argument': conversion from 'double' to 'NetworKit::index', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(116): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(120): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(137): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(181): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(186): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(191): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(192): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(195): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(206): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(207): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(221): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(223): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\dynamichyperbolicgenerator.cpp(256): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  DynamicPathGenerator.cpp
+  EdgeSwitchingMarkovChainGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\edgeswitchingmarkovchaingenerator.cpp(48): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  ErdosRenyiGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\erdosrenyigenerator.cpp(23): warning C4244: 'return': conversion from 'double' to 'NetworKit::count', possible loss of data
+  HavelHakimiGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\havelhakimigenerator.cpp(88): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  HyperbolicGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(129): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(133): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(140): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(141): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(148): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(172): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(174): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(179): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(180): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(183): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(193): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(195): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(415): error C3861: 'M_PI': identifier not found
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(795): note: see reference to class template instantiation 'NetworKit::QuadNode<T,poincare>' being compiled
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(416): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(532): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(563): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(573): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(576): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(583): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(593): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(614): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(620): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(627): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(634): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(645): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(657): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadnode.h(660): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(39): error C3861: 'M_PI': identifier not found
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(230): note: see reference to class template instantiation 'NetworKit::Quadtree<T,poincare>' being compiled
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(49): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(117): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(137): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(140): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(141): error C3861: 'M_PI': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(147): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(159): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\quadtree.h(165): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(70): warning C4244: '=': conversion from 'uint64_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(131): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(131): error C2440: 'return': cannot convert from 'std::tuple<int>' to 'std::tuple<double,double>'
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(131): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(159): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(162): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(172): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(175): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(175): error C2672: 'std::upper_bound': no matching overloaded function found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(175): error C2780: '_FwdIt std::upper_bound(_FwdIt,_FwdIt,const _Ty &)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(3233): note: see declaration of 'std::upper_bound'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(175): error C2780: '_FwdIt std::upper_bound(_FwdIt,_FwdIt,const _Ty &,_Pr)': expects 4 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(3205): note: see declaration of 'std::upper_bound'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(182): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(182): error C2661: 'fmod': no overloaded function takes 1 arguments
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(191): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(193): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(193): error C2672: 'std::upper_bound': no matching overloaded function found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(193): error C2780: '_FwdIt std::upper_bound(_FwdIt,_FwdIt,const _Ty &)': expects 3 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(3233): note: see declaration of 'std::upper_bound'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.h(193): error C2780: '_FwdIt std::upper_bound(_FwdIt,_FwdIt,const _Ty &,_Pr)': expects 4 arguments - 2 provided
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(3205): note: see declaration of 'std::upper_bound'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(51): warning C4244: 'argument': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(95): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(116): warning C4244: 'argument': conversion from 'const NetworKit::count' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(123): warning C4244: 'initializing': conversion from '_Ty' to 'double', possible loss of data
+          with
+          [
+              _Ty=NetworKit::count
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(124): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(125): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(125): warning C4244: 'argument': conversion from 'double' to 'NetworKit::index', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(151): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(167): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(169): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(181): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(200): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(209): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(236): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(255): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\hyperbolicgenerator.cpp(262): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  LFRGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(31): warning C4244: 'argument': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(82): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=NetworKit::count
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(132): error C2039: 'accumulate': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\atomic(43): note: see declaration of 'std'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(132): error C3861: 'accumulate': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(139): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(146): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(242): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(332): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(333): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(334): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\lfrgenerator.cpp(503): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  PowerlawDegreeSequence.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\powerlawdegreesequence.cpp(21): warning C4244: '=': conversion from 'const double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\powerlawdegreesequence.cpp(22): warning C4244: '=': conversion from 'const double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\powerlawdegreesequence.cpp(23): warning C4244: '+=': conversion from 'const double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\powerlawdegreesequence.cpp(62): warning C4244: 'initializing': conversion from 'NetworKit::count' to 'double', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\powerlawdegreesequence.cpp(73): warning C4244: 'argument': conversion from 'double' to 'NetworKit::count', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\powerlawdegreesequence.cpp(76): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\powerlawdegreesequence.cpp(147): warning C4244: 'initializing': conversion from 'NetworKit::count' to 'double', possible loss of data
+  PubWebGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(134): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(135): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(151): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(152): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(162): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(172): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(173): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(182): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(190): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\pubwebgenerator.cpp(190): warning C4244: '=': conversion from 'float' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=NetworKit::count
+          ]
+  QuadTreeGTest.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\quadtree\test\quadtreegtest.h(11): fatal error C1083: Cannot open include file: 'gtest/gtest.h': No such file or directory
+  RegularRingLatticeGenerator.cpp
+  RmatGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\rmatgenerator.cpp(20): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\rmatgenerator.cpp(26): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\rmatgenerator.cpp(34): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\rmatgenerator.cpp(70): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  StaticDegreeSequenceGenerator.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\staticdegreesequencegenerator.cpp(26): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\staticdegreesequencegenerator.cpp(34): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\staticdegreesequencegenerator.cpp(41): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\generators\staticdegreesequencegenerator.cpp(62): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  StaticGraphGenerator.cpp
+  WattsStrogatzGenerator.cpp
+  Generating Code...
+  Compiling...
+  HyperbolicSpace.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(129): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(133): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(140): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(141): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(148): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(172): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(174): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(179): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(180): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(183): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(193): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.h(195): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(24): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(26): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(32): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(68): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(68): error C2661: 'NetworKit::HyperbolicSpace::fillPoints': no overloaded function takes 6 arguments
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(107): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=double
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(121): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(177): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(179): error C2065: 'M_PI': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\geometric\hyperbolicspace.cpp(181): error C2065: 'M_PI': undeclared identifier
+  ClusteringCoefficient.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\clusteringcoefficient.cpp(19): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\clusteringcoefficient.cpp(111): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\clusteringcoefficient.cpp(138): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\clusteringcoefficient.cpp(147): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\clusteringcoefficient.cpp(150): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\clusteringcoefficient.cpp(151): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\clusteringcoefficient.cpp(156): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  GlobalClusteringCoefficient.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\globalclusteringcoefficient.cpp(18): warning C4244: '=': conversion from 'uint64_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\globalclusteringcoefficient.cpp(45): warning C4244: '+=': conversion from 'NetworKit::count' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\global\globalclusteringcoefficient.cpp(52): warning C4244: 'argument': conversion from 'const NetworKit::count' to 'unsigned int', possible loss of data
+  Graph.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory0(881): warning C4244: 'initializing': conversion from 'const _Ty' to '_Objty', possible loss of data
+          with
+          [
+              _Ty=NetworKit::count
+          ]
+          and
+          [
+              _Objty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory(163): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const unsigned __int64&>(_Alloc &,_Objty *const ,const unsigned __int64 &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<double>,
+              _Ty=double,
+              _Objty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory(164): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const unsigned __int64&>(_Alloc &,_Objty *const ,const unsigned __int64 &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<double>,
+              _Ty=double,
+              _Objty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory(190): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<_Ty&>(_Ty &)' being compiled
+          with
+          [
+              _FwdIt=double *,
+              _Alloc=std::allocator<double>,
+              _Ty=const unsigned __int64
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory(190): note: see reference to function template instantiation 'void std::_Uninitialized_backout_al<_FwdIt,_Alloc>::_Emplace_back<_Ty&>(_Ty &)' being compiled
+          with
+          [
+              _FwdIt=double *,
+              _Alloc=std::allocator<double>,
+              _Ty=const unsigned __int64
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory(217): note: see reference to function template instantiation '_FwdIt std::_Uninitialized_copy_al_unchecked<_Ty*,double*,_Alloc>(_InIt,const _InIt,const _FwdIt,_Alloc &,std::_General_ptr_iterator_tag,std::_Any_tag)' being compiled
+          with
+          [
+              _FwdIt=double *,
+              _Ty=const unsigned __int64,
+              _Alloc=std::allocator<double>,
+              _InIt=const unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(1823): note: see reference to function template instantiation '_FwdIt *std::_Uninitialized_copy<_Iter,double*,std::allocator<_Ty>>(const _InIt,const _InIt,_FwdIt,_Alloc &)' being compiled
+          with
+          [
+              _FwdIt=double *,
+              _Iter=const unsigned __int64 *,
+              _Ty=double,
+              _InIt=const unsigned __int64 *,
+              _Alloc=std::allocator<double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(708): note: see reference to function template instantiation 'double *std::vector<double,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,double *)' being compiled
+          with
+          [
+              _Ty=double,
+              _Iter=const unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(708): note: see reference to function template instantiation 'double *std::vector<double,std::allocator<_Ty>>::_Ucopy<_Iter>(_Iter,_Iter,double *)' being compiled
+          with
+          [
+              _Ty=double,
+              _Iter=const unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(723): note: see reference to function template instantiation 'void std::vector<double,std::allocator<_Ty>>::_Range_construct_or_tidy<const unsigned __int64*>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=double,
+              _Iter=const unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(723): note: see reference to function template instantiation 'void std::vector<double,std::allocator<_Ty>>::_Range_construct_or_tidy<const unsigned __int64*>(_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=double,
+              _Iter=const unsigned __int64 *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\random(5539): note: see reference to function template instantiation 'std::vector<double,std::allocator<_Ty>>::vector<_InIt,void>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Ty=double,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>,
+              _Iter=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>,
+              _Alloc=std::allocator<double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\random(5538): note: see reference to function template instantiation 'std::vector<double,std::allocator<_Ty>>::vector<_InIt,void>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Ty=double,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>,
+              _Iter=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>,
+              _Alloc=std::allocator<double>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\random(5633): note: see reference to function template instantiation 'std::discrete_distribution<size_t>::param_type::param_type<_InIt>(_InIt,_InIt)' being compiled
+          with
+          [
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\random(5632): note: see reference to function template instantiation 'std::discrete_distribution<size_t>::param_type::param_type<_InIt>(_InIt,_InIt)' being compiled
+          with
+          [
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>
+          ]
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\graph.cpp(810): note: see reference to function template instantiation 'std::discrete_distribution<size_t>::discrete_distribution<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(_InIt,_InIt)' being compiled
+          with
+          [
+              _Ty=NetworKit::count,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>
+          ]
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\graph.cpp(810): note: see reference to function template instantiation 'std::discrete_distribution<size_t>::discrete_distribution<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(_InIt,_InIt)' being compiled
+          with
+          [
+              _Ty=NetworKit::count,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<NetworKit::count>>>
+          ]
+  KruskalMSF.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\kruskalmsf.cpp(61): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  RandomMaximumSpanningForest.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\randommaximumspanningforest.h(128): error C3861: '__PRETTY_FUNCTION__': identifier not found
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\randommaximumspanningforest.h(128): note: This diagnostic occurred in the compiler generated function 'NetworKit::RandomMaximumSpanningForest::RandomMaximumSpanningForest(const NetworKit::Graph &,const std::vector<ValueType,std::allocator<_Ty>> &)'
+  RandomSpanningForest.cpp
+  SpanningForest.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\spanningforest.cpp(39): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  UnionMaximumSpanningForest.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\unionmaximumspanningforest.h(120): error C3861: '__PRETTY_FUNCTION__': identifier not found
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph\unionmaximumspanningforest.h(120): note: This diagnostic occurred in the compiler generated function 'NetworKit::UnionMaximumSpanningForest::UnionMaximumSpanningForest(const NetworKit::Graph &,const std::vector<ValueType,std::allocator<_Ty>> &)'
+  Immunization.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\probabilistic.h(41): warning C4244: 'return': conversion from 'const uint64_t' to 'long', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\probabilistic.h(44): warning C4244: 'return': conversion from 'const uint64_t' to 'long', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(41): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(60): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(76): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(95): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(110): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(118): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(133): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(150): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(172): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(221): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(222): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(290): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(376): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\immunization.cpp(377): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  IndependentSetFinder.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\independentsetfinder.cpp(22): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Luby.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\luby.h(22): warning C4996: 'NetworKit::IndependentSetFinder': was declared deprecated
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\independentsetfinder.h(21): note: see declaration of 'NetworKit::IndependentSetFinder'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\luby.h(27): warning C4996: 'NetworKit::IndependentSetFinder::run': was declared deprecated
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\independentsetfinder.h(34): note: see declaration of 'NetworKit::IndependentSetFinder::run'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\luby.h(29): warning C4996: 'NetworKit::IndependentSetFinder::toString': was declared deprecated
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\independentsetfinder.h(40): note: see declaration of 'NetworKit::IndependentSetFinder::toString'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\luby.h(30): warning C4996: 'NetworKit::IndependentSetFinder::~IndependentSetFinder': was declared deprecated
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\independentsetfinder.h(27): note: see declaration of 'NetworKit::IndependentSetFinder::~IndependentSetFinder'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\independentset\luby.cpp(48): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  CoverReader.cpp
+  DGSReader.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\dgsreader.cpp(23): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\dgsreader.cpp(30): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\dgsreader.cpp(32): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  DibapGraphReader.cpp
+  EdgeListReader.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(26): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(29): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(51): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(52): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(55): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(60): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(64): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(71): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(77): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(95): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(100): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(104): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(149): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(157): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(162): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(166): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(168): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(175): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(181): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(193): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(198): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(201): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\edgelistreader.cpp(237): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  EdgeListWriter.cpp
+  GMLGraphReader.cpp
+  GraphIO.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\graphio.cpp(22): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\graphio.cpp(37): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  GraphToolBinaryReader.cpp
+  Generating Code...
+  Compiling...
+  KONECTGraphReader.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(36): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(37): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(40): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(117): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(127): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(153): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(157): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(215): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\konectgraphreader.cpp(218): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  LineFileReader.cpp
+  METISGraphReader.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(30): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(36): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(44): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(57): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(70): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(78): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(81): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(90): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(96): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(105): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(108): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisgraphreader.cpp(111): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  METISGraphWriter.cpp
+  METISParser.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(34): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(39): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(64): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(70): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(80): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(84): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(91): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(122): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\metisparser.cpp(132): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  PartitionReader.cpp
+  RasterReader.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\rasterreader.cpp(23): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\rasterreader.cpp(29): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\rasterreader.cpp(40): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\rasterreader.cpp(48): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\rasterreader.cpp(65): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\rasterreader.cpp(103): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  SNAPEdgeListPartitionReader.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapedgelistpartitionreader.cpp(62): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapedgelistpartitionreader.cpp(67): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapedgelistpartitionreader.cpp(82): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapedgelistpartitionreader.cpp(97): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  SNAPGraphReader.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapgraphreader.cpp(43): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapgraphreader.cpp(57): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapgraphreader.cpp(85): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapgraphreader.cpp(88): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\io\snapgraphreader.cpp(116): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  SNAPGraphWriter.cpp
+  Graph3.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\graph3.cpp(49): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\graph3.cpp(130): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\graph3.cpp(118): error C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+  Probabilistic.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\probabilistic.h(41): warning C4244: 'return': conversion from 'const uint64_t' to 'long', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\probabilistic.h(44): warning C4244: 'return': conversion from 'const uint64_t' to 'long', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\probabilistic.cpp(340): warning C4244: 'initializing': conversion from 'double' to 'uint32_t', possible loss of data
+  utilities.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\kadabra\utilities.cpp(5): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+  AdamicAdarIndex.cpp
+  AlgebraicDistanceIndex.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\linkprediction\algebraicdistanceindex.cpp(48): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  CommonNeighborsIndex.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\linkprediction\commonneighborsindex.cpp(14): warning C4244: 'return': conversion from 'unsigned __int64' to 'double', possible loss of data
+  EvaluationMetric.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\linkprediction\evaluationmetric.cpp(42): warning C4244: 'argument': conversion from 'double' to 'unsigned __int64', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\linkprediction\evaluationmetric.cpp(163): error C2039: 'iota': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\atomic(43): note: see declaration of 'std'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\linkprediction\evaluationmetric.cpp(163): error C3861: 'iota': identifier not found
+  JaccardIndex.cpp
+  MissingLinksFinder.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\linkprediction\missinglinksfinder.cpp(36): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  NeighborhoodDistanceIndex.cpp
+  Generating Code...
+  Compiling...
+  PreferentialAttachmentIndex.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\linkprediction\preferentialattachmentindex.cpp(13): warning C4244: 'return': conversion from 'NetworKit::count' to 'double', possible loss of data
+  TotalNeighborsIndex.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\linkprediction\totalneighborsindex.cpp(14): warning C4244: 'return': conversion from 'unsigned __int64' to 'double', possible loss of data
+  Matching.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\matching\matching.cpp(33): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\matching\matching.cpp(45): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  PathGrowingMatcher.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\matching\pathgrowingmatcher.cpp(143): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\matching\pathgrowingmatcher.cpp(144): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  NBR.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph_t.h(15): fatal error C1083: Cannot open include file: 'boost/tr1/unordered_map.hpp': No such file or directory
+  MultiLevelSetup.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(217): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(230): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\numerics\lamg\multilevelsetup.h(242): error C3861: '__PRETTY_FUNCTION__': identifier not found
+  SolverLamg.cpp
+  HashingOverlapper.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\overlap\hashingoverlapper.cpp(16): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\overlap\hashingoverlapper.cpp(47): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  Overlapper.cpp
+  RAND1.cc
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph_t.h(15): fatal error C1083: Cannot open include file: 'boost/tr1/unordered_map.hpp': No such file or directory
+  ApproximatePageRank.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\approximatepagerank.cpp(53): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  GCE.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\gce.cpp(259): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\gce.cpp(265): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\gce.cpp(266): error C3861: '__PRETTY_FUNCTION__': identifier not found
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\gce.cpp(270): error C3861: '__PRETTY_FUNCTION__': identifier not found
+  PageRankNibble.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\pageranknibble.cpp(29): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\pageranknibble.cpp(33): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\pageranknibble.cpp(38): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\pageranknibble.cpp(41): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\pageranknibble.cpp(76): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\scd\pageranknibble.cpp(95): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  SelectiveCommunityDetector.cpp
+  EpidemicSimulationSEIR.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\simulation\epidemicsimulationseir.cpp(84): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  PseudoRandomSpanningTree.cpp
+  RandomSpanningTree.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\spanning\randomspanningtree.cpp(20): warning C4996: 'NetworKit::RandomSpanningTree::edges': was declared deprecated
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\spanning\randomspanningtree.h(34): note: see declaration of 'NetworKit::RandomSpanningTree::edges'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\spanning\randomspanningtree.cpp(87): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  ChanceCorrectedTriangleScore.cpp
+  RandomNodeEdgeScore.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\sparsification\randomnodeedgescore.cpp(32): warning C4244: 'argument': conversion from 'double' to 'NetworKit::count', possible loss of data
+  Cover.cpp
+  Generating Code...
+  Compiling...
+  UnionFind.cpp
+  FruchtermanReingold.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(35): warning C4996: 'NetworKit::Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(20): note: see declaration of 'NetworKit::Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(62): warning C4996: 'NetworKit::Layouter::draw': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(35): note: see declaration of 'NetworKit::Layouter::draw'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(63): warning C4996: 'NetworKit::Layouter::~Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(33): note: see declaration of 'NetworKit::Layouter::~Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(50): warning C4996: 'NetworKit::Layouter::Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(31): note: see declaration of 'NetworKit::Layouter::Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(14): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(18): warning C4996: 'NetworKit::Layouter::Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(32): note: see declaration of 'NetworKit::Layouter::Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(25): warning C4996: 'NetworKit::Layouter::topRight': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(23): note: see declaration of 'NetworKit::Layouter::topRight'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(25): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(26): warning C4996: 'NetworKit::Layouter::topRight': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(23): note: see declaration of 'NetworKit::Layouter::topRight'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(26): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(32): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(74): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(75): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(76): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(77): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(86): warning C4996: 'NetworKit::FruchtermanReingold::step': was declared deprecated
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(42): note: see declaration of 'NetworKit::FruchtermanReingold::step'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(86): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(87): warning C4996: 'NetworKit::FruchtermanReingold::step': was declared deprecated
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(42): note: see declaration of 'NetworKit::FruchtermanReingold::step'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(96): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(99): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(101): warning C4996: 'NetworKit::FruchtermanReingold::prec': was declared deprecated
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(41): note: see declaration of 'NetworKit::FruchtermanReingold::prec'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(119): warning C4996: 'NetworKit::Layouter::layout': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(24): note: see declaration of 'NetworKit::Layouter::layout'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(150): warning C4996: 'NetworKit::Layouter::layout': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(24): note: see declaration of 'NetworKit::Layouter::layout'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(150): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(151): warning C4996: 'NetworKit::Layouter::layout': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(24): note: see declaration of 'NetworKit::Layouter::layout'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(153): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(158): warning C4996: 'NetworKit::Layouter::layout': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(24): note: see declaration of 'NetworKit::Layouter::layout'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(159): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(159): warning C4996: 'NetworKit::Layouter::layout': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(24): note: see declaration of 'NetworKit::Layouter::layout'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.cpp(34): warning C4996: 'NetworKit::Layouter::initialize': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(37): note: see declaration of 'NetworKit::Layouter::initialize'
+  Layouter.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.cpp(34): warning C4996: 'NetworKit::Layouter::layout': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(24): note: see declaration of 'NetworKit::Layouter::layout'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.cpp(49): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.cpp(50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.cpp(56): warning C4996: 'NetworKit::Layouter::layout': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(24): note: see declaration of 'NetworKit::Layouter::layout'
+  MaxentStress.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(35): warning C4996: 'NetworKit::Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(20): note: see declaration of 'NetworKit::Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(62): warning C4996: 'NetworKit::Layouter::draw': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(35): note: see declaration of 'NetworKit::Layouter::draw'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(63): warning C4996: 'NetworKit::Layouter::~Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(33): note: see declaration of 'NetworKit::Layouter::~Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(50): warning C4996: 'NetworKit::Layouter::Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(31): note: see declaration of 'NetworKit::Layouter::Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\maxentstress.h(24): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+  MultilevelLayouter.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\multilevellayouter.h(21): warning C4996: 'NetworKit::Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(20): note: see declaration of 'NetworKit::Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\multilevellayouter.h(28): warning C4996: 'NetworKit::Layouter::draw': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(35): note: see declaration of 'NetworKit::Layouter::draw'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\multilevellayouter.h(32): warning C4996: 'NetworKit::Layouter::~Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(33): note: see declaration of 'NetworKit::Layouter::~Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(35): warning C4996: 'NetworKit::Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(20): note: see declaration of 'NetworKit::Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(62): warning C4996: 'NetworKit::Layouter::draw': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(35): note: see declaration of 'NetworKit::Layouter::draw'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(63): warning C4996: 'NetworKit::Layouter::~Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(33): note: see declaration of 'NetworKit::Layouter::~Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\fruchtermanreingold.h(50): warning C4996: 'NetworKit::Layouter::Layouter': Use base class LayoutAlgorithm instead
+  c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\layouter.h(31): note: see declaration of 'NetworKit::Layouter::Layouter'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\maxentstress.h(24): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory
+  PostscriptWriter.cpp
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(27): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(75): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(76): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(77): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(109): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(110): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(164): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(176): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\viz\postscriptwriter.cpp(191): error C2065: '__PRETTY_FUNCTION__': undeclared identifier
+  _bc.cc
+c:\users\glados\source\repos\complexnetworksfall2018\complexnetworks\graph_t.h(15): fatal error C1083: Cannot open include file: 'boost/tr1/unordered_map.hpp': No such file or directory
+  Generating Code...
