@@ -146,6 +146,20 @@
     <ClInclude Include="bc.h" />
     <ClInclude Include="Clust.h" />
     <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="ext\optionparser.h" />
+    <ClInclude Include="ext\ttmath\ttmath.h" />
+    <ClInclude Include="ext\ttmath\ttmathbig.h" />
+    <ClInclude Include="ext\ttmath\ttmathdec.h" />
+    <ClInclude Include="ext\ttmath\ttmathint.h" />
+    <ClInclude Include="ext\ttmath\ttmathmisc.h" />
+    <ClInclude Include="ext\ttmath\ttmathobjects.h" />
+    <ClInclude Include="ext\ttmath\ttmathparser.h" />
+    <ClInclude Include="ext\ttmath\ttmaththreads.h" />
+    <ClInclude Include="ext\ttmath\ttmathtypes.h" />
+    <ClInclude Include="ext\ttmath\ttmathuint.h" />
+    <ClInclude Include="ext\ttmath\ttmathuint_noasm.h" />
+    <ClInclude Include="ext\ttmath\ttmathuint_x86.h" />
+    <ClInclude Include="ext\ttmath\ttmathuint_x86_64.h" />
     <ClInclude Include="Globals.h" />
     <ClInclude Include="Graph2.h" />
     <ClInclude Include="graph\Coordinates.h" />
@@ -175,7 +189,11 @@
     <ClInclude Include="utility.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ext\ttmath\ttmathuint_x86_64_msvc.asm" />
     <None Include="karate.graph" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="ext\ttmath\ttmathuint_x86_64_msvc.obj" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
