@@ -42,13 +42,13 @@ int main(int argc, char*argv[]) {
 			runGSIZE(stoi(argv[i+1]), stoi(argv[i+2]), stoi(argv[i+3]), stoi(argv[i+4]), argv[i+5]);
 			i = i + 5;
 		}
-		else if ((string)argv[i] == "KADABRA") {
+	/*	else if ((string)argv[i] == "KADABRA") {
 			cout << "\nrunning " << argv[i] << " " << argv[i + 1] << " " << argv[i + 2] << " " << argv[i + 3] << " " << argv[i + 4] << " on file " << argv[i + 5] << endl;
 			//case KADABRA
 			// KADABRA variables (numClusters,  err,				     Reassign (1 or 0 for bool), groups,     and      filepath for graph)
 			runKADABRA(stoi(argv[i + 1]), stoi(argv[i + 2]), stoi(argv[i + 3]), stoi(argv[i + 4]), argv[i + 5]);
 			i = i + 5;
-		}
+		} */
 		else if ((string)argv[i] == "Networkit") {
 			//case Networkit
 			cout << "\nrunning " << argv[i] << " " << argv[i + 1] << " " << argv[i + 2] << " on file " << argv[i + 3] << endl;
@@ -194,7 +194,7 @@ void runABC(int M, double closeness, string graph_file){
 	output << "milliseconds" << endl;
 	output.close();
 }
-
+/*
 void runNET(int numClusters, int numSamples, string graph_file) {
 	//output file
 	ofstream output;
@@ -212,3 +212,4 @@ void runNET(int numClusters, int numSamples, string graph_file) {
 	output << "milliseconds" << endl;
 	output.close();
 }
+*\

@@ -50,12 +50,12 @@ NBR::NBR(const GraphOrig &g, int M,int samp, string alg)
 		//get_influence(myK, seeds, btwss);
 		//get_iterative_btwss(M, myK, seeds, btwss);
 		//seeds = get_gpu_bc_exact(g, 128, 20, op, source_vert);
-		if (alg == "Networkit") { // added to get the right algorithms for each call -DB
+		/*if (alg == "Networkit") { // added to get the right algorithms for each call -DB
 			Immunization myImm = Immunization();
 			seeds = myImm.get_bc_approx(g, myK, (double)M / 10.0, .1); // can reduce .1 to speed it up
 			cout << "MyK: " << myK << endl; 
-		}
-		else if (alg == "GSIZE") {
+		}*/
+		if (alg == "GSIZE") {
 			seeds = get_bader_approx(g, myK, M, samp);
 		}
 		else if (alg == "KADABRA") {

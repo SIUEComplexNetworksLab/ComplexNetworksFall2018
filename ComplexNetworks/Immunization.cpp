@@ -14,8 +14,8 @@
 //#include "betweennessCentrality.h"
 #include "adaptive-betweenness-centrality.h"
 #include "NBR.h"
-#include "centrality/ApproxBetweenness.h"
-#include "centrality/EstimateBetweenness.h"
+//#include "centrality/ApproxBetweenness.h"
+//#include "centrality/EstimateBetweenness.h"
 #include "graph/Graph.h"
 #include "KADABRA/Probabilistic.h"
 #include "Globals.h"
@@ -189,7 +189,7 @@ void Immunization::OutputReport(string filename)
 
 	myfile.close();
 }
-// added from Networkit.cpp -DB
+/*// added from Networkit.cpp -DB
 vector<int> Immunization::get_bc_approx(const GraphOrig & g, int num_removed_nodes, double epsilon, double delta)
 {
 
@@ -258,8 +258,7 @@ vector<int> Immunization::get_bc_approx(const GraphOrig & g, int num_removed_nod
 	cout << "finished one line" << endl;
 	return finished;
 }
-
-
+*/ 
 vector<int> Immunization::get_bc_approx(const GraphOrig & g, int num_removed_nodes, int k, double delta, double err)
 {
 
@@ -341,7 +340,7 @@ vector<int> Immunization::get_bc_approx(const GraphOrig & g, int num_removed_nod
 	cout << "finished one line" << endl;
 	return finished;
 }
-
+/*
 vector<int> Immunization::get_bc_estim(const GraphOrig & g, int num_removed_nodes, int samples, bool normalized, bool in_parallel)
 {
 
@@ -413,3 +412,4 @@ vector<int> Immunization::get_bc_estim(const GraphOrig & g, int num_removed_node
 	cout << "finished one line" << endl;
 	return finished;
 }
+*/
